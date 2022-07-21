@@ -1,5 +1,3 @@
-import Potato from "./Potato";
-
 function Potato() {
   return <h3> I Love NadoJin</h3>
 }
