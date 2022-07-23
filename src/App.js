@@ -1,12 +1,13 @@
-function Potato() {
-  return <h3> I Love NadoJin</h3>
+function Food({favorite}) {
+  return <h3> I Love {favorite}</h3>
 }
 
 function App() {
   
   return (
     <div>
-      <Potato />
+      <Food favorite = "NadoJin"/>
+      <Food favorite = "Yoojin"/>
       <div>Hello World</div>
     </div> 
   )
